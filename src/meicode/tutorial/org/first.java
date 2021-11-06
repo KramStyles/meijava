@@ -4,6 +4,10 @@ import java.util.Scanner;
 
 public class first {
     public static void main(String[] args) {
+
+    }
+
+    private static void scan() {
         System.out.println("Type a number: ");
         Scanner scanner = new Scanner(System.in);
 
