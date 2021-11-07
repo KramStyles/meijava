@@ -17,8 +17,10 @@ public class Main {
     }
 
     static void animal(){
-        Bird phoenix = new Bird("Pipi", "Purple & Grey", 3, true);
-        System.out.println(phoenix.getName());
+        Bird phoenix = new Bird("Pipi", "Purple & Grey", 3, true, 2);
+        phoenix.eat("Rice");
+        System.out.println(phoenix.wings);
+        System.out.println(phoenix.getWings());
     }
 
 }

@@ -14,7 +14,7 @@ public class Animal {
     }
 
     public void eat(String food){
-        System.out.println(" is eating: " + food);
+        System.out.println(this.name + " is eating: " + food);
     }
 
     public String getName() {
