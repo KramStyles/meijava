@@ -1,8 +1,11 @@
 package meicode.tutorial.oop;
 
+import meicode.tutorial.oop2.Cars;
+import meicode.tutorial.oop2.Engine;
+
 public class Main {
     public static void main(String[] args) {
-        animal();
+
     }
 
     static void phone(){
@@ -21,6 +24,11 @@ public class Main {
         phoenix.eat("Rice");
         System.out.println(phoenix.wings);
         System.out.println(phoenix.getWings());
+    }
+
+    static void car(){
+        Engine engine = new Engine("Renault", 10000);
+        Cars mercedes = new Cars("Mercedes ARM", 2, "Black", engine);
     }
 
 }
