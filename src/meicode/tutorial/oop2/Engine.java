@@ -1,6 +1,11 @@
 package meicode.tutorial.oop2;
 
 public class Engine {
+    /**
+     * Returns the engine of our car
+     *
+     */
+
     private String model;
     private int rpm;
 
